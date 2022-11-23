@@ -30,4 +30,4 @@ def fam(request):
     plantilla = loader.get_template("template1.html")
     doc = plantilla.render(dic)
 
-    return HttpResponse(dic)
+    return HttpResponse(doc)
